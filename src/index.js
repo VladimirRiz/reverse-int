@@ -1,3 +1,5 @@
-module.exports = function reverse (n) {
-  
-}
+module.exports = function reverse(n) {
+    return Number(String(n).split("").reverse().join(""));
+};
+
+const reverse = (n) => {};
